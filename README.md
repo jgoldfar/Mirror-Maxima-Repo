@@ -22,3 +22,11 @@ travis encrypt-file id_rsa --add
 rm id_rsa id_rsa.pub
 git add id_rsa .travis.yml
 ```
+
+## Contact
+
+Feel free to open an issue or PR to contribute, or contact me at jgoldfar@my.fit.edu.
+
+## Changelog
+
+* An issue arose on the regular cron run on 3/1/2019 due to a change in configuration on the Sourceforge servers (most likely.) This was fixed by upgrading the image used to run the build on Travis to Ubuntu Xenial. At the same time, I reduced the image to the `minimal` version should eliminate some cruft from the build environment.
